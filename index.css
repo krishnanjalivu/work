@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.navbar
+{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    
+    
+}
+.logo
+{
+    height: 80px;
+    object-fit: cover;
+    width:160px;
+    margin-left: 20px;
+
+}
+.user
+{
+    height: 45px;
+    width:45px;
+    margin: 13px;
+    margin-right: 20px;
+}
+.main
+{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+}
+.circles{
+    background-color: silver;
+    border-radius: 25px;
+    height:45px;
+    width:180px;
+    
+}
+h3
+{
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    color: rgb(138, 136, 136);
+    text-align: center;
+    line-height: 2.5rem;
+}
+.container111{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: -10px 200px;
+
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+
+}
+.container12{
+    display: flex;
+    flex-direction: row;
+
+
+}
+.container121{
+    display: flex;
+    flex-direction: column;
+    width:100px;
+    align-items: center;
+    margin: 20px;
+    border:1px solid;
+    border-radius: 25px;
+    border-color: silver;
+    padding: 10px;
+    height:520px ;
+
+    
+}
+.container122{
+    margin: 20px;
+    border:1px solid;
+    border-radius: 25px;
+    border-color: silver;
+    padding: 10px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+   
+}
+.sidebar
+{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 15px;
+}
+.sidebar img{
+    height: 33px;
+    width: 33px;
+}
+.sidebar p{
+    font-family: sans-serif;
+    font-weight: 200;
+    line-height: 2rem;
+}
+.item1 {
+    
+    border-radius: 25px;
+  }
+.item2 {
+    
+    border-radius: 25px;
+ 
+  }
+.item4 {
+    
+    border-radius: 25px;
+    width: 250px;
+    height: 100px;
+  }
+.item6 {
+    grid-column: 1 / span 2;
+  grid-row: 3;
+    border-radius: 25px;
+    width: 500px;
+  }
+  
+  .item3 {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+    border-radius: 25px;
+  }
+  
+  .item5 {
+    grid-column: 1 / span 3;
+    grid-row: 2;
+    border-radius: 25px;
+    width: 55%;
+  }
