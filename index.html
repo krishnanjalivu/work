@@ -60,12 +60,29 @@
                 </div>
                 
                 <div class="container122">
-                    <img src="cashflow.png" class="item1">
-                    <img src="expense.png" class="item2">
-                    <img src="calender.png" class="item3">
-                    <img src="totalinc.png" class="item4">
-                    <img src="invoice.png" class="item5">
-                    <img src="grossprofit.png" class="item6">
+                    <div class="item1" id="Income">
+                        <canvas id="income"></canvas>
+                      </div>
+                    
+                      <div class="item2" id="Receipt">
+                        <canvas id="receipt"></canvas>
+                      </div>
+                      
+                    <div class="item3" id="Sales-Proforma">
+                        <canvas id="sales"></canvas>
+                      </div>
+                    
+                     
+                    <div class="item4" id="Purchase">
+                        <canvas id="purchase"></canvas>
+                      </div>
+
+                    
+                    <div class="item5" id="Expenses">
+                        <canvas id="expenses"></canvas>
+                      </div>
+                    
+                    
                     
                     
                 </div>
@@ -73,5 +90,7 @@
             </div>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="/charts/inventory.js"></script>
 </body>
 </html>

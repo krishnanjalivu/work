@@ -90,8 +90,13 @@ h3
     padding: 10px;
     width: 80%;
     display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 20px;
+    grid-template-areas:
+    'header header header main main main'
+    'header header header main main main'
+    'menu menu menu right right right'
+    'menu menu menu right right  right'
+    'footer footer footer footer footer footer';
+  gap: 30px;
    
 }
 .sidebar
@@ -110,37 +115,20 @@ h3
     font-weight: 200;
     line-height: 2rem;
 }
-.item1 {
+
+  .item1 { grid-area: header;
+    display: block; width: 406px; height: 300px;
+ }
+.item2 { grid-area: menu;
+    display: block; width: 406px; height: 300px; }
+.item3 { grid-area: main;
+    }
+.item4 { grid-area: right;
+   margin-top: 20px;
+}
+.item5 { grid-area: footer;
+    width: 90%;
+    margin-left: 30px;
+    margin-top: 10px;
     
-    border-radius: 25px;
-  }
-.item2 {
-    
-    border-radius: 25px;
- 
-  }
-.item4 {
-    
-    border-radius: 25px;
-    width: 250px;
-    height: 100px;
-  }
-.item6 {
-    grid-column: 1 / span 2;
-  grid-row: 3;
-    border-radius: 25px;
-    width: 500px;
-  }
-  
-  .item3 {
-    grid-column: 3;
-    grid-row: 1 / span 2;
-    border-radius: 25px;
-  }
-  
-  .item5 {
-    grid-column: 1 / span 3;
-    grid-row: 2;
-    border-radius: 25px;
-    width: 55%;
-  }
+     }
