@@ -157,18 +157,28 @@ h3
         }
         .container111{
             display: flex;
-            justify-content: space-evenly;
+            justify-content: space-around;
+            
+             
 
             
             
         }
-        h3{
-            font-size: 17px;
-            margin: 0px 10px;
-            
-        }
+
         .circles{
             margin: 7px;
+
         }
 
+      }
+
+      a {
+       font-family: sans-serif;
+        padding: 10px 15px;
+        color: #000;
+        text-decoration: none;
+      }
+      .circles a{
+        font-size: 17px;
+       
       }
