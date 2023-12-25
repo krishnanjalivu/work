@@ -182,3 +182,23 @@ h3
         font-size: 17px;
        
       }
+      .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 30px;
+      }
+      .dz-message{
+        color: rgb(84, 178, 255);
+      }
+      .form{
+        
+        display: flex;
+        flex-direction: column;
+       
+        align-items: center;
+      }
+      .dropzone{
+        border-radius: 15px;
+      }
