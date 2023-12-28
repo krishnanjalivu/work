@@ -202,3 +202,64 @@ h3
       .dropzone{
         border-radius: 15px;
       }
+      .settings{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+      }
+      .settingsmain{
+        display: flex;
+        flex-direction: row;
+        margin: 15px;
+      }
+      .settingsmain h2{
+        margin-left: 7px;
+        margin-top: 5px;
+      }
+      .contain2{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(224, 224, 224);
+        border-radius: 15px;
+        padding: 35px;
+        margin-top: 25px;
+      }
+      .access{
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+        
+      }
+      .email{
+        padding: 10px;
+        
+      }
+      .email input{
+        margin-left: 15px;
+        border-radius: 10px;
+        height: 30px;
+        border: none;
+        padding: 8px;
+      }
+      .fpset{
+        display: flex;
+        flex-direction: row;
+        margin: 25px;
+        justify-content: space-around;
+      }
+      .fp{
+        display: flex;
+        flex-direction: column;
+      }
+      .fp button{
+        background-color: rgb(169, 241, 169);
+        font-size: 15px;
+        border-radius: 25px;
+        border: none;
+        height: 30px;
+        font-weight: bold;
+        margin: 10px;
+        cursor: pointer;
+      }
+
+      

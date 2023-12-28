@@ -1,0 +1,63 @@
+main{
+    border: solid black 2px;
+    padding: 50px;
+    margin: 35px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    
+}
+.profile h2{
+    margin:1px -9px ;
+}
+.container{
+    background-color: rgb(223, 223, 223);
+    padding: 25px;
+    border: none;
+    border-radius: 15px;
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.user{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    padding: 10px;
+}
+.user input{
+   margin-left: 15px;
+    border-radius: 15px;
+    border: none;
+    padding: 8px;
+    width: 20%;
+    
+}
+label{
+    font-size: 19px;
+    font-weight: bold;
+    color: rgb(110, 110, 110);
+    margin-right: 15px;
+}
+button{
+    border: none;
+    border-radius: 15px;
+    background-color: black;
+    color: green;
+    padding: 8px;
+    font-weight: bold;
+    margin-left: 15px;
+    width: 100px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+h3{
+    color: rgb(112, 112, 112);
+    margin-left: 10px;
+}
